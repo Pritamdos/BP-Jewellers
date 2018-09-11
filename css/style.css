@@ -9,7 +9,23 @@ body{
     font-family: 'Berkshire Swash', cursive;
 	text-transform: capitalize;
 	margin:0!important;
-	color:#666;
+	color:#000;
+}
+.contact-icons
+{
+	font-family: 'Berkshire Swash', cursive;
+    text-transform: capitalize;
+    margin: 0!important;
+    color: #000;
+    float: right;
+    font-size: 26px;
+    line-height: 25px;
+    padding-top: 3px;
+}
+i.fa.fa-phone {
+    float: left;
+    line-height: 38px;
+    padding-right: 5px;
 }
 a:hover
 {
@@ -328,7 +344,7 @@ hr{
 			border-left:0 solid #323232;
 		}
 		#main-menu .navbar-nav > li a{
-			color:#838383;
+			color:#fff;
 			text-transform:uppercase;
 		}
 		#main-menu .navbar-nav > li > a:hover, 
@@ -421,8 +437,9 @@ hr{
 			margin:0 0 20px;
 			font-size:24px;
 			background:#191919;
-			color:#ff434a;
+			color:#fff;
 			text-transform:uppercase;
+            font-family: 'Berkshire Swash', cursive;
 		}
 		.product-col{
 			padding:15px 15px 10px;
@@ -449,11 +466,11 @@ hr{
 				font-size:16px;
 			}
 			.product-col h4, .product-col h4 a{
-				color:#ff434a;
+				color:#fff;
 			}
 			.product-col .description{
 				padding:5px 0;
-				color:#838383;
+				color:#fff;
 				font-size:12px;
 				line-height:18px;
 				text-align:justify;
@@ -470,7 +487,7 @@ hr{
 					text-transform:uppercase;
 				}
 				.product-col .price span.price-new{
-					color:#ff434a;
+					color:#fff;
 					font-size:24px;
 					padding-right:5px;
 				}
@@ -671,7 +688,7 @@ hr{
 		#owl-product .owl-controls .owl-buttons .owl-prev, 
 		#owl-product .owl-controls .owl-buttons .owl-next{
 			top:-61px;
-			color:#ff434a;
+			color:#fff;
 		}
 		#owl-product .owl-controls .owl-buttons .owl-prev{
 			right:60px;
@@ -1170,7 +1187,7 @@ hr{
 	float: left;
 	text-align: center;
 	font-size:22px;
-	color:#ff434a;
+	color:#fff;
 }
 .custom-image
 {
